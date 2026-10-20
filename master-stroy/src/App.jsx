@@ -1,11 +1,13 @@
-function App() {
+import Header from './widgets/Header'
+import Footer from './widgets/Footer'
+import HomePage from './pages/Homepage'
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        React + Tailwind v4
-      </h1>
-    </div>
+    <>
+    <Header />
+    <HomePage />
+    <Footer />
+    </>
   )
 }
-
-export default App
